@@ -3,7 +3,7 @@ import csv
 class Logger:
 
     def createCSV(name):
-        filename = name + ".csv"
+        filename = name + "Test.csv"
         with open(filename, 'w') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
